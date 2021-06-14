@@ -5,9 +5,9 @@ import About from './components/About';
 function App() {
   return (
     <div>
-      <main>
-        <About></About>
-      </main>
+      <div id="intro">
+        <About />
+      </div>
     </div>
   );
 }
